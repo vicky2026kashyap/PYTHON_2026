@@ -1,29 +1,36 @@
-#Sum of two no.
+#Wap to check if a number entered by the user is odd or even
 
-a = int(input("Enter a number: "))
-b = int(input("Enter a number: "))
+num = int(input("Enter a number:"))
 
-print("Sum :", a+b)
+if (num % 2 == 0):
+    print("Even")
 
-
-#Wap to inpur side of a square & print its area
-
-side= float (input ("Enter Square of a side: "))
-
-print("Area: ", side *side)
+else:
+    print("Odd")
 
 
-#Wap to input 2 floatint point numbers & print their average
+#Wap to find the greatest of the 3 numbers entered by the user.
 
-a = float(input("Enter a number: "))
-b = float(input("Enter a number: "))
+a = int(input("Enter first number :"))
+b = int(input("Enter second number :"))
+c = int(input("Enter third number :"))
 
-print("Average:", (a+b)/2)
+if ( a >= b and a >= c):
+    print("First Number is largest", a)
+
+elif (b >= c):
+    print("Second number is largest", b)
+
+else:
+    print("third number is largest", c)
 
 
-#Wap to input 2 int number , a and b,  Print True if a greater than or equal to b.  If not print False
+#Wap to check if a number is a multiple of 7 or not
 
-a = int(input("Enter a value: "))
-b = int(input("Enter a value: "))
+num = int(input("Enter a number: "))
 
-print ("Result", (a>=b))
+if (num % 5 == 0):
+    print("Multiple of 5")
+
+else:
+    print("Not a multiple")
